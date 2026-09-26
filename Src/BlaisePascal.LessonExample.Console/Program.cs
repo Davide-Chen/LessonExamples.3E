@@ -2,14 +2,25 @@
 {
     public static void Main()
     {
-        Console.WriteLine("Benvenuto nella classe 3E");
+        
+
+        Console.WriteLine("Inserisci il nome del cliente");
+        string nomeCliente = Console.ReadLine();
+
+        Console.WriteLine($"Benvenuto {nomeCliente} nella classe 3E");
+
+        Console.WriteLine("INserisci il tipo di spedizione");
+        string tipoConsegna = Console.ReadLine();
+
+        Console.WriteLine("INserisci il numero di pacchi");
+        int numeroPacchiComprati = int.Parse( Console.ReadLine() );
 
         int costoSpedizioneSingoloPacco = 5; //dichiarazione + assegnazione
         costoSpedizioneSingoloPacco = 10; // assegnazione
 
-        int numeroPacchiComprati = 2;
         
-        string tipoConsegna = "Standard"; // dichiarazione
+        
+        
 
         int costoTotale = costoSpedizioneSingoloPacco * numeroPacchiComprati;
 
