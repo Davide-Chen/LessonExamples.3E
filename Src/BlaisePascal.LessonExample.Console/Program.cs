@@ -1,9 +1,11 @@
-﻿public class Program
+﻿using BlaisePascal.LessonExample.Domain;
+
+public class Program
 {
-    public static void Main()
+    public static void Main(string[] args)
     {
         
-
+        /*
         Console.WriteLine("Inserisci il nome del cliente");
         string nomeCliente = Console.ReadLine();
 
@@ -25,5 +27,14 @@
         int costoTotale = costoSpedizioneSingoloPacco * numeroPacchiComprati;
 
         Console.WriteLine($"Il tipo di consegna selezionato è: {tipoConsegna} e il costo totale è: {costoTotale}");
+        */
+
+        Vehicle vehicle = new Vehicle("abc");
+        //vehicle.LicensePlate = "abc";
+        string license = vehicle.LicensePlate;
+
+        Console.WriteLine(vehicle);
+        Console.WriteLine(license);
+
     }
 }
