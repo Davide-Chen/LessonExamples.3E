@@ -1,7 +1,14 @@
 <Solution>
   <Folder Name="/Doc/" />
+  <Folder Name="/exampleEnemy/" />
+  <Folder Name="/exampleEnemy/src/">
+    <Project Path="exampleEnemy/src/BlaisePascal.LessonExample.ExampleEnemy.Console/BlaisePascal.LessonExample.ExampleEnemy.Console.csproj" Id="c9aa7049-8158-47e1-a89c-04a437b84862" />
+    <Project Path="exampleEnemy/src/BlaisePascal.LessonExample.ExampleEnemy.Domain/BlaisePascal.LessonExample.ExampleEnemy.Domain.csproj" Id="6ba5fb32-8e61-43fc-ae00-9a3d09c7c00c" />
+  </Folder>
+  <Folder Name="/exampleVehicle/" />
   <Folder Name="/Src/">
     <Project Path="Src/BlaisePascal.LessonExample.Console/BlaisePascal.LessonExample.Console.csproj" Id="1047b2d4-2bae-4129-a79f-dd5d2d4cb7e7" />
+    <Project Path="Src/BlaisePascal.LessonExample.ConsoleEnemy/BlaisePascal.LessonExample.ConsoleEnemy.csproj" Id="0e29ce6e-4435-4793-9241-9360b09416a2" />
     <Project Path="Src/Domain/BlaisePascal.LessonExample.Domain.csproj" />
   </Folder>
   <Folder Name="/Test/">
