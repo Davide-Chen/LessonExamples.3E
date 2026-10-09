@@ -6,11 +6,11 @@
     <Project Path="exampleEnemy/src/BlaisePascal.LessonExample.ExampleEnemy.Domain/BlaisePascal.LessonExample.ExampleEnemy.Domain.csproj" Id="6ba5fb32-8e61-43fc-ae00-9a3d09c7c00c" />
   </Folder>
   <Folder Name="/exampleVehicle/" />
-  <Folder Name="/Src/">
-    <Project Path="Src/BlaisePascal.LessonExample.Console/BlaisePascal.LessonExample.Console.csproj" Id="1047b2d4-2bae-4129-a79f-dd5d2d4cb7e7" />
-    <Project Path="Src/BlaisePascal.LessonExample.ConsoleEnemy/BlaisePascal.LessonExample.ConsoleEnemy.csproj" Id="0e29ce6e-4435-4793-9241-9360b09416a2" />
-    <Project Path="Src/Domain/BlaisePascal.LessonExample.Domain.csproj" />
+  <Folder Name="/exampleVehicle/src/">
+    <Project Path="exampleEnemy/src/BlaisePascal.LessonExample.ExampleVehicle.console/BlaisePascal.LessonExample.ExampleVehicle.console.csproj" Id="4c36f62c-10bf-4392-8fc1-3971c5749738" />
+    <Project Path="exampleVehicle/src/BlaisePascal.LessonExample.ExampleVehicle.Domain/BlaisePascal.LessonExample.ExampleVehicle.Domain.csproj" Id="d4f49087-0a90-4cee-a6c1-34ca6de481a1" />
   </Folder>
+  <Folder Name="/Src/" />
   <Folder Name="/Test/">
     <Project Path="Test/BlaisePascal.LessonExample.TestDomain/BlaisePascal.LessonExample.TestDomain.csproj" />
   </Folder>
